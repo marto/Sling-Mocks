@@ -1,0 +1,1522 @@
+{
+	jcr:path= /content/geometrixx/en/products
+	jcr:createdBy= system
+	jcr:created= 2011-03-27T17:50:20.000+01:00
+	jcr:primaryType= cq:Page
+	jcr:content: {
+		jcr:path= /content/geometrixx/en/products/jcr:content
+		analyticsProvider= undefined
+		sling:resourceType= geometrixx/components/contentpage
+		cq:tags= [marketing:interest/product]
+		jcr:title= Products
+		jcr:createdBy= system
+		subtitle= what we do
+		cq:lastModified= 2011-01-25T14:19:40.000Z
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:PageContent
+		cq:template= /apps/geometrixx/templates/contentpage
+		cq:lastModifiedBy= admin
+		par: {
+			jcr:path= /content/geometrixx/en/products/jcr:content/par
+			sling:resourceType= foundation/components/parsys
+			jcr:primaryType= nt:unstructured
+			flash: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/flash
+				jcr:lastModifiedBy= admin
+				sling:resourceType= foundation/components/flash
+				jcr:createdBy= admin
+				jcr:created= 2010-11-02T11:29:34.000Z
+				fileReference= /content/dam/geometrixx/movies/shape_summit.swf
+				jcr:lastModified= 2010-11-02T11:29:46.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			title_1: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/title_1
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:createdBy= admin
+				jcr:title= Our Bestsellers
+				type= large
+				jcr:created= 2010-11-02T11:30:09.000Z
+				jcr:lastModified= 2010-11-10T16:04:37.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			5_1219676772646: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/5_1219676772646
+				sling:resourceType= foundation/components/parsys/colctrl
+				layout= 2;cq-colctrl-lt0
+				jcr:primaryType= nt:unstructured
+			}
+			title: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/title
+				href= /content/geometrixx/en/products/triangle.html
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:title= Triangle
+				jcr:lastModified= 2010-11-03T15:28:12.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			6_1219677056079: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/6_1219677056079
+				jcr:lastModifiedBy= admin
+				sling:resourceType= foundation/components/image
+				fileReference= /content/dam/geometrixx/packshots/pack_triangle.jpg
+				linkURL= /content/geometrixx/en/products/triangle
+				jcr:lastModified= 2010-11-08T06:46:25.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			7_1204885810609: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/7_1204885810609
+				textIsRich= true
+				jcr:lastModifiedBy= admin
+				sling:resourceType= foundation/components/text
+				cq:cssClass=  
+				jcr:lastModified= 2010-11-10T17:19:32.000Z
+				jcr:primaryType= nt:unstructured
+				text= <p>The triangle is an old favorite. It combines the simplicity of three-sidedness with the reliability of having only two dimensions. And with the new finds off the coast of Madagascar coming online, triangle prices are lower than ever!&nbsp;</p> <p>If you like the look of the triangle but want to upgrade to three dimensions, why not take a look at the tetrahedron?</p> 
+			}
+			col_break12196767727740: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/col_break12196767727740
+				sling:resourceType= foundation/components/parsys/colctrl
+				controlType= break
+				jcr:primaryType= nt:unstructured
+			}
+			title1: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/title1
+				href= /content/geometrixx/en/products/square.html
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:title= Square
+				jcr:lastModified= 2010-11-03T15:28:26.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			image_0: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/image_0
+				jcr:lastModifiedBy= admin
+				sling:resourceType= foundation/components/image
+				jcr:createdBy= admin
+				jcr:created= 2010-11-08T06:43:27.000Z
+				fileReference= /content/dam/geometrixx/packshots/pack_square.jpg
+				jcr:lastModified= 2010-11-08T06:46:34.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			5_1204885766734: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/5_1204885766734
+				textIsRich= true
+				jcr:lastModifiedBy= admin
+				sling:resourceType= foundation/components/text
+				jcr:lastModified= 2010-11-03T15:19:52.000Z
+				jcr:primaryType= nt:unstructured
+				text= <p>If you like triangles but are looking for something with 90 degree angles, try the square.</p>
+<p>At Geometrixx we use only the finest naturally occurring squares. Unlike our competitors we never edge-bond two right triangles to form a square, because we believe only natural squares give you the reliability that you need.&nbsp;</p>
+<p></p>
+<p></p>
+<p></p>
+
+			}
+			col_end12196767727751: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/col_end12196767727751
+				sling:resourceType= foundation/components/parsys/colctrl
+				controlType= end
+				jcr:primaryType= nt:unstructured
+			}
+			colctrl: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/colctrl
+				jcr:lastModifiedBy= admin
+				sling:resourceType= foundation/components/parsys/colctrl
+				jcr:createdBy= admin
+				controlType= start
+				jcr:created= 2010-11-11T12:55:01.000Z
+				layout= 2;cq-colctrl-lt0
+				jcr:lastModified= 2010-11-11T12:55:01.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			title_0: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/title_0
+				href= /content/geometrixx/en/products/circle.html
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:createdBy= admin
+				jcr:title= Circle
+				jcr:created= 2010-11-01T01:00:20.000Z
+				jcr:lastModified= 2010-11-03T15:28:48.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			image: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/image
+				jcr:lastModifiedBy= admin
+				imageRotate= 0
+				sling:resourceType= foundation/components/image
+				jcr:createdBy= admin
+				jcr:created= 2010-11-01T01:00:13.000Z
+				fileReference= /content/dam/geometrixx/packshots/pack_circle.jpg
+				linkURL= /content/geometrixx/en/products/circle
+				jcr:lastModified= 2010-11-11T12:58:40.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			text: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/text
+				textIsRich= true
+				jcr:lastModifiedBy= admin
+				sling:resourceType= foundation/components/text
+				jcr:createdBy= admin
+				jcr:created= 2010-11-01T01:00:27.000Z
+				jcr:lastModified= 2010-11-11T16:22:00.000Z
+				cq:cssClass=  
+				jcr:primaryType= nt:unstructured
+				text= <p>Timeless beauty. Classic simplicity. It must be the circle! Each Geometrixx-brand circle is handcrafted from an infinite number of very skinny isoceles triangles arrange in, well, a circle! We guarantee that our circles are not simply<i> n</i>-gons, where <i>n</i> is a very large number; ours are guaranteed round, no matter how closely you look.</p>
+
+			}
+			col_break12894801010710: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/col_break12894801010710
+				sling:resourceType= foundation/components/parsys/colctrl
+				controlType= break
+				jcr:primaryType= nt:unstructured
+			}
+			title_3: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/title_3
+				href= /content/geometrixx/en/products/mandelbrot.html
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:createdBy= admin
+				jcr:title= Mandelbrot Set
+				jcr:created= 2010-11-11T12:57:22.000Z
+				jcr:lastModified= 2010-11-11T12:57:22.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			image_2: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/image_2
+				jcr:lastModifiedBy= admin
+				imageRotate= 0
+				sling:resourceType= foundation/components/image
+				jcr:createdBy= admin
+				jcr:created= 2010-11-11T12:57:23.000Z
+				fileReference= /content/dam/geometrixx/packshots/pack_mandelbrot.jpg
+				linkURL= /content/geometrixx/en/products/mandelbrot
+				jcr:lastModified= 2010-11-11T12:58:31.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			text_0: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/text_0
+				jcr:lastModifiedBy= admin
+				textIsRich= true
+				sling:resourceType= foundation/components/text
+				jcr:createdBy= admin
+				jcr:created= 2010-11-11T12:57:24.000Z
+				jcr:lastModified= 2010-11-11T12:57:24.000Z
+				jcr:primaryType= nt:unstructured
+				text= <p>Ready to take the next step? The Mandelbrot set is now available for a low introductory price of only $1500. Never before has a countably infinite set of numbers been so affordable.</p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+			}
+			col_end12894801010711: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/col_end12894801010711
+				sling:resourceType= foundation/components/parsys/colctrl
+				controlType= end
+				jcr:primaryType= nt:unstructured
+			}
+			productlist: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/par/productlist
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/productlist
+				rootPath= /content/geometrixx/en/products/jcr:content/par/productlist
+				jcr:lastModified= 2010-11-03T15:25:52.000Z
+				jcr:primaryType= nt:unstructured
+				1258674897390: {
+					jcr:path= /content/geometrixx/en/products/jcr:content/par/productlist/1258674897390
+					CatalogCode= 21389
+					SellingSku= 32319
+					sling:resourceType= geometrixx/components/productlist/sku
+					ProductId= 45566
+					Color= Yellow
+					ProductName= Square
+					Selection= false
+					jcr:primaryType= nt:unstructured
+				}
+				1258674859000: {
+					jcr:path= /content/geometrixx/en/products/jcr:content/par/productlist/1258674859000
+					CatalogCode= 32432
+					SellingSku= 12127
+					sling:resourceType= geometrixx/components/productlist/sku
+					ProductId= 23798
+					Color= Red
+					ProductName= Triangle
+					jcr:primaryType= nt:unstructured
+				}
+				1258674828905: {
+					jcr:path= /content/geometrixx/en/products/jcr:content/par/productlist/1258674828905
+					CatalogCode= 43244
+					SellingSku= 32131
+					ProductId= 21786
+					sling:resourceType= geometrixx/components/productlist/sku
+					Color= Blue
+					ProductName= Circle
+					jcr:primaryType= nt:unstructured
+				}
+				1288656890604: {
+					jcr:path= /content/geometrixx/en/products/jcr:content/par/productlist/1288656890604
+					CatalogCode= 67868
+					SellingSku= 89890
+					sling:resourceType= geometrixx/components/productlist/sku
+					ProductId= 67443
+					Color= Multicolored
+					ProductName= Mandelbrot Set
+					Selection= false
+					jcr:primaryType= nt:unstructured
+				}
+			}
+		}
+		rightpar: {
+			jcr:path= /content/geometrixx/en/products/jcr:content/rightpar
+			jcr:lastModifiedBy= admin
+			sling:resourceType= foundation/components/iparsys
+			jcr:lastModified= 2011-01-25T14:19:40.000Z
+			jcr:primaryType= nt:unstructured
+			iparsys_fake_par: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/rightpar/iparsys_fake_par
+				sling:resourceType= foundation/components/iparsys/par
+				jcr:primaryType= nt:unstructured
+			}
+			title: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/rightpar/title
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:createdBy= admin
+				jcr:created= 2010-11-05T16:29:01.000Z
+				jcr:lastModified= 2010-11-05T16:29:01.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			list: {
+				jcr:path= /content/geometrixx/en/products/jcr:content/rightpar/list
+				displayAs= linklist
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/list
+				jcr:createdBy= admin
+				listFrom= children
+				jcr:created= 2010-11-05T16:40:40.000Z
+				jcr:lastModified= 2010-11-05T16:40:53.000Z
+				jcr:primaryType= nt:unstructured
+			}
+		}
+		title: {
+			jcr:path= /content/geometrixx/en/products/jcr:content/title
+			jcr:lastModifiedBy= admin
+			sling:resourceType= geometrixx/components/title
+			jcr:lastModified= 2010-08-25T16:12:32.000+01:00
+			jcr:primaryType= nt:unstructured
+		}
+	}
+	triangle: {
+		jcr:path= /content/geometrixx/en/products/triangle
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/triangle/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product]
+			jcr:title= Triangle
+			jcr:createdBy= system
+			cq:lastModified= 2010-11-12T00:01:52.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+			par: {
+				jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par
+				sling:resourceType= foundation/components/parsys
+				jcr:primaryType= nt:unstructured
+				flash: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/flash
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/flash
+					jcr:createdBy= admin
+					jcr:created= 2010-11-03T03:20:11.000Z
+					fileReference= /content/dam/geometrixx/movies/triangles.swf
+					jcr:lastModified= 2010-11-03T03:20:23.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				title: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/title
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= It's simple: three sides, three vertices, endless possibilities
+					type= large
+					jcr:lastModified= 2010-11-11T23:09:55.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				text_0: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/text_0
+					textIsRich= true
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/text
+					jcr:createdBy= admin
+					jcr:created= 2010-11-03T04:41:59.000Z
+					jcr:lastModified= 2010-11-05T15:14:54.000Z
+					jcr:primaryType= nt:unstructured
+					text= <p>The measure of an exterior angle of a triangle is equal to the sum of the measures of the two interior angles that are not adjacent to it; this is the exterior angle theorem. The sum of the measures of the three exterior angles (one for each vertex) of any triangle is 360 degrees.</p>
+<p style="font-family: tahoma,arial,helvetica,sans-serif; font-size: 12px;"></p>
+
+				}
+				title1: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/title1
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= Pair your triangle with any of our many other shapes.
+					jcr:lastModified= 2010-11-03T15:32:13.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				1_1219674803642: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/1_1219674803642
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/image
+					fileReference= /content/dam/geometrixx/shapes/W06.jpg
+					jcr:lastModified= 2010-11-02T06:03:30.000Z
+					jcr:primaryType= nt:unstructured
+					fileName= Picture 1.png
+					file: {
+						jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/1_1219674803642/file
+						jcr:lastModifiedBy= system
+						jcr:uuid= 2e4aba31-bc98-4a37-8935-e3e90e5a16db
+						:jcr:data= 810818
+						jcr:mimeType= image/png
+						jcr:lastModified= 2011-02-18T12:28:10.000Z
+						jcr:primaryType= nt:resource
+					}
+				}
+				list: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/list
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/list
+					jcr:createdBy= admin
+					listFrom= children
+					jcr:created= 2010-11-11T14:05:19.000Z
+					jcr:lastModified= 2010-11-11T14:05:19.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				ratings: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/par/ratings
+					jcr:lastModifiedBy= admin
+					sling:resourceType= collab/commons/components/ratings
+					jcr:lastModified= 2009-10-06T18:40:41.000+01:00
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			rightpar: {
+				jcr:path= /content/geometrixx/en/products/triangle/jcr:content/rightpar
+				sling:resourceType= foundation/components/iparsys
+				jcr:primaryType= nt:unstructured
+				iparsys_fake_par: {
+					jcr:path= /content/geometrixx/en/products/triangle/jcr:content/rightpar/iparsys_fake_par
+					sling:resourceType= foundation/components/iparsys/par
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			image: {
+				jcr:path= /content/geometrixx/en/products/triangle/jcr:content/image
+				jcr:lastModifiedBy= admin
+				imageRotate= 0
+				jcr:lastModified= 2010-11-12T00:01:52.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			title: {
+				jcr:path= /content/geometrixx/en/products/triangle/jcr:content/title
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:title= Three sides to every story
+				jcr:lastModified= 2010-11-03T15:35:06.000Z
+				jcr:primaryType= nt:unstructured
+			}
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/triangle/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:createdBy= system
+				jcr:title= Overview
+				cq:lastModified= 2010-11-11T13:55:14.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:template= /apps/geometrixx/templates/contentpage
+				cq:lastModifiedBy= admin
+				par: {
+					jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					colctrl: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/colctrl
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/parsys/colctrl
+						jcr:createdBy= admin
+						controlType= start
+						jcr:created= 2010-11-03T03:25:34.000Z
+						layout= 3;cq-colctrl-lt1
+						jcr:lastModified= 2010-11-03T03:30:04.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					title: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/title
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:title= Equilateral
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T03:26:36.000Z
+						jcr:lastModified= 2010-11-03T03:26:54.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text_2: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/text_2
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T03:31:33.000Z
+						jcr:lastModified= 2010-11-03T04:15:29.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>The classic for the discerning triangle aficionado. Three equal sides, three equal angles. Liberté, égalité, fraternité!</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"></p>
+
+					}
+					image: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/image
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/tri_equilateral.png
+						jcr:created= 2010-11-03T03:25:58.000Z
+						jcr:lastModified= 2010-11-11T13:55:14.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_break12887547349980: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/col_break12887547349980
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= break
+						jcr:primaryType= nt:unstructured
+					}
+					title_0: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/title_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:createdBy= admin
+						jcr:title= Isoceles
+						jcr:created= 2010-11-03T03:26:39.000Z
+						jcr:lastModified= 2010-11-03T03:27:03.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text_0: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/text_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T03:26:30.000Z
+						jcr:lastModified= 2010-11-03T03:36:14.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>With at least two equal sides, isoceles is sometimes equilateral and visa versa. Or as the ancient Greeks would say, iso skelos!</p>
+<p></p>
+
+					}
+					image_0: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/image_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/tri_isoceles.png
+						jcr:created= 2010-11-03T03:26:01.000Z
+						jcr:lastModified= 2010-11-11T13:55:12.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_break12887547349991: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/col_break12887547349991
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= break
+						jcr:primaryType= nt:unstructured
+					}
+					title_1: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/title_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:title= Scalene
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T03:26:43.000Z
+						jcr:lastModified= 2010-11-03T03:27:14.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text_1: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/text_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T03:26:33.000Z
+						jcr:lastModified= 2010-11-03T03:39:11.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Oh scalene, you odd man out, you rebel. Not one equal side and a steep argument at every angle. Mein Gott!</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"></p>
+
+					}
+					image_1: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/image_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T03:26:04.000Z
+						fileReference= /content/dam/geometrixx/shapes/tri_scalene.png
+						jcr:lastModified= 2010-11-11T13:55:09.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_end12887547349992: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/par/col_end12887547349992
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= end
+						jcr:primaryType= nt:unstructured
+					}
+				}
+				rightpar: {
+					jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/rightpar
+					sling:resourceType= foundation/components/iparsys
+					jcr:primaryType= nt:unstructured
+					iparsys_fake_par: {
+						jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/rightpar/iparsys_fake_par
+						sling:resourceType= foundation/components/iparsys/par
+						jcr:primaryType= nt:unstructured
+					}
+				}
+				title: {
+					jcr:path= /content/geometrixx/en/products/triangle/overview/jcr:content/title
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= The triangle is available in three models
+					jcr:lastModified= 2010-11-03T03:25:17.000Z
+					jcr:primaryType= nt:unstructured
+				}
+			}
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/triangle/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/triangle/features/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:title= Features
+				jcr:createdBy= system
+				cq:lastModified= 2010-11-05T15:29:43.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:template= /apps/geometrixx/templates/contentpage
+				cq:lastModifiedBy= admin
+				par: {
+					jcr:path= /content/geometrixx/en/products/triangle/features/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					image: {
+						jcr:path= /content/geometrixx/en/products/triangle/features/jcr:content/par/image
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T04:30:22.000Z
+						fileReference= /content/dam/geometrixx/shapes/W01.jpg
+						jcr:lastModified= 2010-11-03T04:30:28.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					table_0: {
+						jcr:path= /content/geometrixx/en/products/triangle/features/jcr:content/par/table_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/table
+						jcr:createdBy= admin
+						tableData= <table width="400" cellspacing="0" cellpadding="1" border="1">
+<tbody><tr><th>&nbsp;</th>
+<th>Description</th>
+</tr><tr><th>Dimensions</th>
+<td>2</td>
+</tr><tr><th>Sides</th>
+<td>3</td>
+</tr><tr><th>Vertices<br>
+</th>
+<td>3</td>
+</tr><tr><th>Colors</th>
+<td>Red / Green / Blue / Orange</td>
+</tr><tr><th>Sizes (Height)</th>
+<td>1m / 10m / 100m / 1000m (special order)</td>
+</tr></tbody></table>
+
+						jcr:created= 2010-11-05T15:25:39.000Z
+						jcr:lastModified= 2010-11-05T15:29:43.000Z
+						jcr:primaryType= nt:unstructured
+					}
+				}
+				rightpar: {
+					jcr:path= /content/geometrixx/en/products/triangle/features/jcr:content/rightpar
+					sling:resourceType= foundation/components/iparsys
+					jcr:primaryType= nt:unstructured
+					iparsys_fake_par: {
+						jcr:path= /content/geometrixx/en/products/triangle/features/jcr:content/rightpar/iparsys_fake_par
+						sling:resourceType= foundation/components/iparsys/par
+						jcr:primaryType= nt:unstructured
+					}
+				}
+			}
+		}
+	}
+	square: {
+		jcr:path= /content/geometrixx/en/products/square
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/square/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product, marketing:interest/services]
+			jcr:createdBy= system
+			jcr:title= Square
+			cq:lastModified= 2010-11-11T23:11:16.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+			par: {
+				jcr:path= /content/geometrixx/en/products/square/jcr:content/par
+				sling:resourceType= foundation/components/parsys
+				jcr:primaryType= nt:unstructured
+				flash: {
+					jcr:path= /content/geometrixx/en/products/square/jcr:content/par/flash
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/flash
+					jcr:createdBy= admin
+					fileReference= /content/dam/geometrixx/movies/squares.swf
+					jcr:created= 2010-11-03T04:58:54.000Z
+					jcr:lastModified= 2010-11-03T04:58:59.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				title_0: {
+					jcr:path= /content/geometrixx/en/products/square/jcr:content/par/title_0
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= There's four sides, they're the same. There's four angles, they're the same.
+					jcr:createdBy= admin
+					type= large
+					jcr:created= 2010-11-03T05:31:37.000Z
+					jcr:lastModified= 2010-11-11T23:11:16.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				text: {
+					jcr:path= /content/geometrixx/en/products/square/jcr:content/par/text
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/text
+					jcr:createdBy= admin
+					jcr:created= 2010-11-03T05:31:18.000Z
+					jcr:lastModified= 2010-11-03T05:31:32.000Z
+					jcr:primaryType= nt:unstructured
+					text= <p>In geometry, a square is a regular quadrilateral. This means that it has four equal sides and four equal angles (90 degree angles, or right angles). In classical times, the second power was described in terms of the area of a square, as in the above formula. This led to the use of the term square to mean raising to the second power. In spherical geometry, a square is a polygon whose edges are great circle arcs of equal distance, which meet at equal angles. Unlike the square of plane geometry, the angles of such a square are larger than a right angle.</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"></p>
+
+				}
+				image: {
+					jcr:path= /content/geometrixx/en/products/square/jcr:content/par/image
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/image
+					fileReference= /content/dam/geometrixx/shapes/W08.jpg
+					jcr:lastModified= 2010-11-03T05:35:33.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				list: {
+					jcr:path= /content/geometrixx/en/products/square/jcr:content/par/list
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/list
+					listFrom= children
+					jcr:lastModified= 2009-11-20T00:12:40.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				ratings: {
+					jcr:path= /content/geometrixx/en/products/square/jcr:content/par/ratings
+					jcr:lastModifiedBy= admin
+					sling:resourceType= collab/commons/components/ratings
+					jcr:createdBy= admin
+					jcr:created= 2010-11-08T21:35:02.000Z
+					jcr:lastModified= 2010-11-08T21:35:02.000Z
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			rightpar: {
+				jcr:path= /content/geometrixx/en/products/square/jcr:content/rightpar
+				sling:resourceType= foundation/components/iparsys
+				jcr:primaryType= nt:unstructured
+				iparsys_fake_par: {
+					jcr:path= /content/geometrixx/en/products/square/jcr:content/rightpar/iparsys_fake_par
+					sling:resourceType= foundation/components/iparsys/par
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			title: {
+				jcr:path= /content/geometrixx/en/products/square/jcr:content/title
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:title= Upright, solid, unquestionable
+				jcr:lastModified= 2010-11-03T05:26:56.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			image: {
+				jcr:path= /content/geometrixx/en/products/square/jcr:content/image
+				jcr:lastModifiedBy= admin
+				imageRotate= 0
+				jcr:lastModified= 2010-11-03T04:34:00.000Z
+				jcr:primaryType= nt:unstructured
+			}
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/square/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/square/overview/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:title= Overview
+				jcr:createdBy= system
+				cq:lastModified= 2010-11-11T14:07:17.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:template= /apps/geometrixx/templates/contentpage
+				cq:lastModifiedBy= admin
+				par: {
+					jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					colctrl: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/colctrl
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/parsys/colctrl
+						jcr:createdBy= admin
+						controlType= start
+						layout= 3;cq-colctrl-lt1
+						jcr:created= 2010-11-03T05:37:53.000Z
+						jcr:lastModified= 2010-11-03T05:38:05.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					title: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/title
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:createdBy= admin
+						jcr:title= Less is more
+						jcr:created= 2010-11-03T05:44:11.000Z
+						jcr:lastModified= 2010-11-03T05:48:10.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/text
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T05:44:38.000Z
+						jcr:lastModified= 2010-11-03T05:47:53.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Perfectly constructed, our square won't budge if you don't want it to. From Donald Judd to Mies Van der Rohe, this shape is the starting point of wonder.</p>
+<p></p>
+
+					}
+					image: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/image
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/sq_square.png
+						jcr:created= 2010-11-03T05:43:52.000Z
+						jcr:lastModified= 2010-11-11T14:07:17.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_break12887626731730: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/col_break12887626731730
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= break
+						jcr:primaryType= nt:unstructured
+					}
+					title_0: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/title_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:title= Make a Plan
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T05:44:31.000Z
+						jcr:lastModified= 2010-11-03T05:52:38.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text_0: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/text_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T05:44:41.000Z
+						jcr:lastModified= 2010-11-03T05:50:34.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Our squares can help you plan and organize environments from the bird's eye perspective. If you can imagine it, our squares can manifest it.</p>
+<p></p>
+
+					}
+					image_0: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/image_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/sq_plan.png
+						jcr:created= 2010-11-03T05:43:54.000Z
+						jcr:lastModified= 2010-11-11T14:06:56.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_break12887626731731: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/col_break12887626731731
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= break
+						jcr:primaryType= nt:unstructured
+					}
+					title_1: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/title_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:title= More is More
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T05:44:34.000Z
+						jcr:lastModified= 2010-11-03T05:52:51.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text_1: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/text_1
+						textIsRich= true
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T05:44:59.000Z
+						jcr:lastModified= 2010-11-05T10:43:18.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Break off the plane and soar, above, around, beneath, beyond. The cube represents the next dimension for square enthusiasts.<br>
+ <br>
+</p>
+<p></p>
+
+					}
+					image_1: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/image_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T05:43:56.000Z
+						fileReference= /content/dam/geometrixx/shapes/sq_cube.png
+						jcr:lastModified= 2010-11-11T14:06:58.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_end12887626731732: {
+						jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/par/col_end12887626731732
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= end
+						jcr:primaryType= nt:unstructured
+					}
+				}
+				title: {
+					jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/title
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= Four sides, limitless possibilities
+					jcr:lastModified= 2010-11-03T05:37:18.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				rightpar: {
+					jcr:path= /content/geometrixx/en/products/square/overview/jcr:content/rightpar
+					sling:resourceType= foundation/components/iparsys
+					jcr:primaryType= nt:unstructured
+				}
+			}
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/square/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/square/features/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:title= Features
+				jcr:createdBy= system
+				cq:lastModified= 2010-11-05T15:29:23.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:template= /apps/geometrixx/templates/contentpage
+				cq:lastModifiedBy= admin
+				par: {
+					jcr:path= /content/geometrixx/en/products/square/features/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					image: {
+						jcr:path= /content/geometrixx/en/products/square/features/jcr:content/par/image
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T06:04:49.000Z
+						fileReference= /content/dam/geometrixx/shapes/W11.jpg
+						jcr:lastModified= 2010-11-03T06:14:24.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					table_0: {
+						jcr:path= /content/geometrixx/en/products/square/features/jcr:content/par/table_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/table
+						jcr:createdBy= admin
+						tableData= <table width="400" cellspacing="0" cellpadding="1" border="1">
+<tbody><tr><th>&nbsp;</th>
+<th>Description
+</th>
+</tr><tr><th>Faces</th>
+<td>4</td>
+</tr><tr><th>Vertices</th>
+<td>4</td>
+</tr><tr><th>Edges</th>
+<td>6</td>
+</tr><tr><th>Dimensions<br>
+</th>
+<td>3</td>
+</tr><tr><th>Colors</th>
+<td>Red / Green / Blue / Orange / Neon Pink<br>
+</td>
+</tr><tr><th>Sizes (Height)</th>
+<td>1m / 10m / 100m / 1000m (special order)</td>
+</tr></tbody></table>
+
+						jcr:created= 2010-11-05T15:27:41.000Z
+						jcr:lastModified= 2010-11-05T15:29:19.000Z
+						jcr:primaryType= nt:unstructured
+					}
+				}
+			}
+		}
+	}
+	circle: {
+		jcr:path= /content/geometrixx/en/products/circle
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/circle/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product, marketing:interest/services]
+			jcr:title= Circle
+			jcr:createdBy= system
+			cq:lastModified= 2010-11-11T23:11:33.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+			par: {
+				jcr:path= /content/geometrixx/en/products/circle/jcr:content/par
+				sling:resourceType= foundation/components/parsys
+				jcr:primaryType= nt:unstructured
+				flash: {
+					jcr:path= /content/geometrixx/en/products/circle/jcr:content/par/flash
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/flash
+					jcr:createdBy= admin
+					jcr:created= 2010-11-03T06:07:04.000Z
+					fileReference= /content/dam/geometrixx/movies/circles.swf
+					jcr:lastModified= 2010-11-03T06:07:09.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				title_0: {
+					jcr:path= /content/geometrixx/en/products/circle/jcr:content/par/title_0
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= From it's infinite exterior to it's incalculable interior, the circle just is
+					jcr:createdBy= admin
+					type= large
+					jcr:created= 2010-11-03T06:10:57.000Z
+					jcr:lastModified= 2010-11-11T23:11:33.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				text: {
+					jcr:path= /content/geometrixx/en/products/circle/jcr:content/par/text
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/text
+					jcr:createdBy= admin
+					jcr:created= 2010-11-03T06:09:33.000Z
+					jcr:lastModified= 2010-11-03T06:10:00.000Z
+					jcr:primaryType= nt:unstructured
+					text= <p><span class="Apple-style-span" style="font-size: 12px;">Circles are simple closed curves which divide the plane into two regions, an interior and an exterior. In everyday use, the term &quot;circle&quot; may be used interchangeably to refer to either the boundary of the figure (also known as the perimeter) or to the whole figure including its interior. However, in strict technical usage, &quot;circle&quot; refers to the perimeter while the interior of the circle is called a disk. The circumference of a circle is the perimeter of the circle (especially when referring to its length).</span></p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"></p>
+
+				}
+				image: {
+					jcr:path= /content/geometrixx/en/products/circle/jcr:content/par/image
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/image
+					fileReference= /content/dam/geometrixx/shapes/W03.jpg
+					jcr:lastModified= 2010-11-03T06:08:41.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				list: {
+					jcr:path= /content/geometrixx/en/products/circle/jcr:content/par/list
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/list
+					listFrom= children
+					jcr:lastModified= 2009-11-20T00:12:40.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				ratings: {
+					jcr:path= /content/geometrixx/en/products/circle/jcr:content/par/ratings
+					jcr:lastModifiedBy= admin
+					sling:resourceType= collab/commons/components/ratings
+					jcr:createdBy= admin
+					jcr:created= 2010-11-08T21:37:20.000Z
+					jcr:lastModified= 2010-11-08T21:37:20.000Z
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			rightpar: {
+				jcr:path= /content/geometrixx/en/products/circle/jcr:content/rightpar
+				sling:resourceType= foundation/components/iparsys
+				jcr:primaryType= nt:unstructured
+				iparsys_fake_par: {
+					jcr:path= /content/geometrixx/en/products/circle/jcr:content/rightpar/iparsys_fake_par
+					sling:resourceType= foundation/components/iparsys/par
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			title: {
+				jcr:path= /content/geometrixx/en/products/circle/jcr:content/title
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:title= One side, no start, no end. Perfect.
+				jcr:lastModified= 2010-11-03T06:06:29.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			image: {
+				jcr:path= /content/geometrixx/en/products/circle/jcr:content/image
+				jcr:lastModifiedBy= admin
+				imageRotate= 0
+				jcr:lastModified= 2010-11-03T06:05:31.000Z
+				jcr:primaryType= nt:unstructured
+			}
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/circle/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:createdBy= system
+				jcr:title= Overview
+				cq:lastModified= 2010-11-11T14:30:19.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:lastModifiedBy= admin
+				cq:template= /apps/geometrixx/templates/contentpage
+				par: {
+					jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					colctrl: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/colctrl
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/parsys/colctrl
+						jcr:createdBy= admin
+						controlType= start
+						layout= 3;cq-colctrl-lt1
+						jcr:created= 2010-11-03T06:14:55.000Z
+						jcr:lastModified= 2010-11-03T06:15:20.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					title: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/title
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:createdBy= admin
+						jcr:title= Circle
+						jcr:created= 2010-11-03T06:17:28.000Z
+						jcr:lastModified= 2010-11-03T16:19:28.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text_1: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/text_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T06:17:42.000Z
+						jcr:lastModified= 2010-11-03T16:28:40.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Seemingly so simple, yet full of mystery. Why is π equal to 3.14159... and not something simpler like, say, 3? Who knows. All we know is that we have the one to fit your budget.</p>
+<p></p>
+
+					}
+					image: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/image
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/cir_circle.png
+						jcr:created= 2010-11-03T06:15:04.000Z
+						jcr:lastModified= 2010-11-11T14:29:46.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_break12887648952740: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/col_break12887648952740
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= break
+						jcr:primaryType= nt:unstructured
+					}
+					title_1: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/title_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:createdBy= admin
+						jcr:title= Ellipse
+						jcr:created= 2010-11-03T06:17:32.000Z
+						jcr:lastModified= 2010-11-03T16:22:56.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/text
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T06:17:36.000Z
+						jcr:lastModified= 2010-11-03T16:32:15.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Ever since Kepler found that planetary orbits are elliptical these babies have been in short supply. But now, with the opening of our new mine, ellipse shortages are a thing of the past!</p>
+<p></p>
+
+					}
+					image_1: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/image_1
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/sq_elipse.png
+						jcr:created= 2010-11-03T06:15:12.000Z
+						jcr:lastModified= 2010-11-11T14:29:32.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_break12887648952741: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/col_break12887648952741
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= break
+						jcr:primaryType= nt:unstructured
+					}
+					title_0: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/title_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= geometrixx/components/title
+						jcr:createdBy= admin
+						jcr:title= Sphere
+						jcr:created= 2010-11-03T06:17:30.000Z
+						jcr:lastModified= 2010-11-03T16:19:35.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					text_0: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/text_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/text
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T06:17:39.000Z
+						jcr:lastModified= 2010-11-03T16:28:16.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Take a circle and rotate it around a line drawn through its center and you get a sphere. Bowling balls, tennis balls and planets. What do they all have in common? That's right, they are spheres!</p>
+<p style="font-family: tahoma, arial, helvetica, sans-serif; font-size: 12px;"></p>
+
+					}
+					image_0: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/image_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/cir_sphere.png
+						jcr:created= 2010-11-03T06:15:07.000Z
+						jcr:lastModified= 2010-11-11T14:29:37.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					col_end12887648952742: {
+						jcr:path= /content/geometrixx/en/products/circle/overview/jcr:content/par/col_end12887648952742
+						sling:resourceType= foundation/components/parsys/colctrl
+						controlType= end
+						jcr:primaryType= nt:unstructured
+					}
+				}
+			}
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/circle/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/circle/features/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:createdBy= system
+				jcr:title= Features
+				cq:lastModified= 2010-11-05T15:31:50.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:lastModifiedBy= admin
+				cq:template= /apps/geometrixx/templates/contentpage
+				par: {
+					jcr:path= /content/geometrixx/en/products/circle/features/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					image: {
+						jcr:path= /content/geometrixx/en/products/circle/features/jcr:content/par/image
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						jcr:created= 2010-11-03T06:13:33.000Z
+						fileReference= /content/dam/geometrixx/shapes/W09.jpg
+						jcr:lastModified= 2010-11-03T06:13:39.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					table_0: {
+						jcr:path= /content/geometrixx/en/products/circle/features/jcr:content/par/table_0
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/table
+						jcr:createdBy= admin
+						tableData= <table width="400" cellspacing="0" cellpadding="1" border="1">
+<tbody><tr><th>&nbsp;</th>
+<th>Description</th>
+</tr><tr><th>Center</th>
+<td>Anywhere on the Cartesian plane
+</td>
+</tr><tr><th>Radius (<i>r</i>)<br>
+</th>
+<td>All lengths available<br>
+</td>
+</tr><tr><th>Circumference</th>
+<td>2<i>πr</i></td>
+</tr><tr><th>Dimensions<br>
+</th>
+<td>2
+</td>
+</tr><tr><th>Colors</th>
+<td>Red / Zebra Stripes (special order)<br>
+</td>
+</tr></tbody></table>
+
+						jcr:created= 2010-11-05T15:30:05.000Z
+						jcr:lastModified= 2010-11-05T15:31:44.000Z
+						jcr:primaryType= nt:unstructured
+					}
+				}
+			}
+		}
+	}
+	mandelbrot: {
+		jcr:path= /content/geometrixx/en/products/mandelbrot
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product, marketing:interest/services]
+			jcr:createdBy= system
+			jcr:title= Mandelbrot Set
+			cq:lastModified= 2010-11-08T21:39:55.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+			par: {
+				jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/par
+				sling:resourceType= foundation/components/parsys
+				jcr:primaryType= nt:unstructured
+				image: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/par/image
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/image
+					fileReference= /content/dam/geometrixx/shapes/W04.jpg
+					jcr:lastModified= 2010-11-02T06:02:37.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				title: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/par/title
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= Best in class
+					type= large
+					jcr:lastModified= 2010-11-03T16:45:56.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				text: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/par/text
+					jcr:lastModifiedBy= admin
+					sling:resourceType= foundation/components/text
+					jcr:createdBy= admin
+					jcr:created= 2010-11-03T16:46:41.000Z
+					jcr:lastModified= 2010-11-03T16:53:07.000Z
+					jcr:primaryType= nt:unstructured
+					text= <p>The Mandelbrot set is a mathematical set of points in the complex plane, the boundary of which forms a fractal. The Mandelbrot set is the set of complex values of <b><i>c</i></b> for which the orbit of <b><i>0</i></b> under iteration of the complex quadratic polynomial <b><i>z[n+1] = z[n2] + c</i></b> remains bounded. That is, a complex number, <b><i>c</i></b>, is in the Mandelbrot set if, when starting with <b><i>z[0] = 0</i></b> and applying the iteration repeatedly, the absolute value of <b><i>z[n]</i></b> never exceeds a certain number (that number depends on <b><i>c</i></b>) however large <b><i>n</i></b> gets. The Mandelbrot set is named after Benoît Mandelbrot, who studied and popularized it.</p>
+<p></p>
+
+				}
+				list: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/par/list
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/list
+					listFrom= children
+					jcr:lastModified= 2009-11-20T00:12:40.000Z
+					jcr:primaryType= nt:unstructured
+				}
+				ratings: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/par/ratings
+					jcr:lastModifiedBy= admin
+					sling:resourceType= collab/commons/components/ratings
+					jcr:createdBy= admin
+					jcr:created= 2010-11-08T21:39:55.000Z
+					jcr:lastModified= 2010-11-08T21:39:55.000Z
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			rightpar: {
+				jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/rightpar
+				sling:resourceType= foundation/components/iparsys
+				jcr:primaryType= nt:unstructured
+				iparsys_fake_par: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/rightpar/iparsys_fake_par
+					sling:resourceType= foundation/components/iparsys/par
+					jcr:primaryType= nt:unstructured
+				}
+			}
+			title: {
+				jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/title
+				jcr:lastModifiedBy= admin
+				sling:resourceType= geometrixx/components/title
+				jcr:title= A fractal like no other
+				jcr:lastModified= 2010-11-03T16:40:48.000Z
+				jcr:primaryType= nt:unstructured
+			}
+			image: {
+				jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content/image
+				jcr:lastModifiedBy= admin
+				imageRotate= 0
+				jcr:lastModified= 2010-11-01T21:24:42.000Z
+				jcr:primaryType= nt:unstructured
+			}
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/mandelbrot/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/mandelbrot/overview/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:createdBy= system
+				jcr:title= Overview
+				cq:lastModified= 2010-11-11T14:33:52.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:lastModifiedBy= admin
+				cq:template= /apps/geometrixx/templates/contentpage
+				par: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/overview/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					textimage: {
+						jcr:path= /content/geometrixx/en/products/mandelbrot/overview/jcr:content/par/textimage
+						textIsRich= true
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/textimage
+						jcr:createdBy= admin
+						jcr:created= 2010-11-02T01:00:48.000Z
+						jcr:lastModified= 2010-11-03T16:55:02.000Z
+						jcr:primaryType= nt:unstructured
+						text= <p>Tired of the same old shapes, day in, day out? Take a look at the Mandelbrot set. It's like nothing you have ever seen before, and now with our special fractal-based leasing program your monthly payments will seem so much lower than they really are!</p>
+<p></p>
+
+						image: {
+							jcr:path= /content/geometrixx/en/products/mandelbrot/overview/jcr:content/par/textimage/image
+							jcr:lastModifiedBy= admin
+							imageRotate= 0
+							sling:resourceType= foundation/components/image
+							fileReference= /content/dam/geometrixx/shapes/mandelbrot.jpg
+							jcr:lastModified= 2010-11-03T16:55:02.000Z
+							jcr:primaryType= nt:unstructured
+						}
+					}
+				}
+				title: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/overview/jcr:content/title
+					jcr:lastModifiedBy= admin
+					sling:resourceType= geometrixx/components/title
+					jcr:title= Grandpa's Circles Not Up to Snuff?<br>Move to Mandelbrot Set.
+					jcr:lastModified= 2010-11-11T14:33:52.000Z
+					jcr:primaryType= nt:unstructured
+				}
+			}
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/mandelbrot/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+			jcr:content: {
+				jcr:path= /content/geometrixx/en/products/mandelbrot/features/jcr:content
+				sling:resourceType= geometrixx/components/contentpage
+				jcr:createdBy= system
+				jcr:title= Features
+				cq:lastModified= 2010-11-03T16:55:37.000Z
+				jcr:created= 2011-03-27T17:50:20.000+01:00
+				jcr:primaryType= cq:PageContent
+				cq:lastModifiedBy= admin
+				cq:template= /apps/geometrixx/templates/contentpage
+				par: {
+					jcr:path= /content/geometrixx/en/products/mandelbrot/features/jcr:content/par
+					sling:resourceType= foundation/components/parsys
+					jcr:primaryType= nt:unstructured
+					image: {
+						jcr:path= /content/geometrixx/en/products/mandelbrot/features/jcr:content/par/image
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/image
+						jcr:createdBy= admin
+						fileReference= /content/dam/geometrixx/shapes/W07.jpg
+						jcr:created= 2010-11-03T16:55:23.000Z
+						jcr:lastModified= 2010-11-03T16:55:37.000Z
+						jcr:primaryType= nt:unstructured
+					}
+					table: {
+						jcr:path= /content/geometrixx/en/products/mandelbrot/features/jcr:content/par/table
+						jcr:lastModifiedBy= admin
+						sling:resourceType= foundation/components/table
+						jcr:createdBy= admin
+						tableData= <table width="100%" cellspacing="0" cellpadding="1" border="1">
+<tbody><tr><td>Plane</td>
+<td>Complex</td>
+</tr><tr><td>Type</td>
+<td>Fractal</td>
+</tr><tr><td>Equation</td>
+<td>Complex quadratic polynomial</td>
+</tr><tr><td>Hausdorff Dimension</td>
+<td><p>2</p>
+<p></p>
+</td>
+</tr><tr><td>Colors Available</td>
+<td><p>Infinite</p>
+<p></p>
+</td>
+</tr><tr><td>Sizes Available (height)</td>
+<td>1m, 10m, 100m, 1000m (special order)</td>
+</tr></tbody></table>
+
+						jcr:created= 2010-11-02T00:53:53.000Z
+						jcr:lastModified= 2010-11-02T01:00:27.000Z
+						jcr:primaryType= nt:unstructured
+					}
+				}
+			}
+		}
+	}
+}

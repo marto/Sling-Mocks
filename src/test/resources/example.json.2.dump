@@ -1,0 +1,159 @@
+{
+	jcr:path= /content/geometrixx/en/products
+	jcr:createdBy= system
+	jcr:created= 2011-03-27T17:50:20.000+01:00
+	jcr:primaryType= cq:Page
+	jcr:content: {
+		jcr:path= /content/geometrixx/en/products/jcr:content
+		analyticsProvider= undefined
+		sling:resourceType= geometrixx/components/contentpage
+		cq:tags= [marketing:interest/product]
+		jcr:title= Products
+		jcr:createdBy= system
+		subtitle= what we do
+		cq:lastModified= 2011-01-25T14:19:40.000Z
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:PageContent
+		cq:template= /apps/geometrixx/templates/contentpage
+		cq:lastModifiedBy= admin
+		par: {
+			jcr:path= /content/geometrixx/en/products/jcr:content/par
+			sling:resourceType= foundation/components/parsys
+			jcr:primaryType= nt:unstructured
+		}
+		rightpar: {
+			jcr:path= /content/geometrixx/en/products/jcr:content/rightpar
+			jcr:lastModifiedBy= admin
+			sling:resourceType= foundation/components/iparsys
+			jcr:lastModified= 2011-01-25T14:19:40.000Z
+			jcr:primaryType= nt:unstructured
+		}
+		title: {
+			jcr:path= /content/geometrixx/en/products/jcr:content/title
+			jcr:lastModifiedBy= admin
+			sling:resourceType= geometrixx/components/title
+			jcr:lastModified= 2010-08-25T16:12:32.000+01:00
+			jcr:primaryType= nt:unstructured
+		}
+	}
+	triangle: {
+		jcr:path= /content/geometrixx/en/products/triangle
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/triangle/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product]
+			jcr:title= Triangle
+			jcr:createdBy= system
+			cq:lastModified= 2010-11-12T00:01:52.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/triangle/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/triangle/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+	}
+	square: {
+		jcr:path= /content/geometrixx/en/products/square
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/square/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product, marketing:interest/services]
+			jcr:createdBy= system
+			jcr:title= Square
+			cq:lastModified= 2010-11-11T23:11:16.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/square/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/square/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+	}
+	circle: {
+		jcr:path= /content/geometrixx/en/products/circle
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/circle/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product, marketing:interest/services]
+			jcr:title= Circle
+			jcr:createdBy= system
+			cq:lastModified= 2010-11-11T23:11:33.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/circle/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/circle/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+	}
+	mandelbrot: {
+		jcr:path= /content/geometrixx/en/products/mandelbrot
+		jcr:createdBy= system
+		jcr:created= 2011-03-27T17:50:20.000+01:00
+		jcr:primaryType= cq:Page
+		jcr:content: {
+			jcr:path= /content/geometrixx/en/products/mandelbrot/jcr:content
+			sling:resourceType= geometrixx/components/contentpage
+			cq:tags= [marketing:interest/product, marketing:interest/services]
+			jcr:createdBy= system
+			jcr:title= Mandelbrot Set
+			cq:lastModified= 2010-11-08T21:39:55.000Z
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:PageContent
+			cq:template= /apps/geometrixx/templates/contentpage
+			cq:lastModifiedBy= admin
+		}
+		overview: {
+			jcr:path= /content/geometrixx/en/products/mandelbrot/overview
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+		features: {
+			jcr:path= /content/geometrixx/en/products/mandelbrot/features
+			jcr:createdBy= system
+			jcr:created= 2011-03-27T17:50:20.000+01:00
+			jcr:primaryType= cq:Page
+		}
+	}
+}
