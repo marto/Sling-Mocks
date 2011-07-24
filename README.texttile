@@ -1,0 +1,8 @@
+h2. Project Description
+This library "_sling.testing_" is a set of tools and utilities for unit testing of Sling Modules.
+
+h2. References
+* http://sling.apache.org/site/index.html
+
+h2. License
+LGPL 3 - See LICENSE.txt
