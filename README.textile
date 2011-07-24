@@ -1,9 +1,10 @@
 h1. Sling Mocks
 
-"Sling Mocks":sling-mocks.sourceforge.net is a set of tools and utilities for unit testing of Sling Modules.
+"Sling Mocks":http://sling-mocks.sourceforge.net is a set of tools and utilities for unit testing of Sling Modules.
 
 h3. References
 
+* Sling Mocks Homepage - "http://sling-mocks.sourceforge.net":http://sling-mocks.sourceforge.net
 * "http://sling.apache.org/site/index.html":http://sling.apache.org/site/index.html
 
 h2. License
