@@ -4,7 +4,7 @@ This library "Sling Mocks" is a set of tools and utilities for unit testing of S
 
 h2. References
 
-* [http://sling.apache.org/site/index.html]
+* "http://sling.apache.org/site/index.html":http://sling.apache.org/site/index.html
 
 h2. License
 
