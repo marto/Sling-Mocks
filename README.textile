@@ -10,3 +10,28 @@ h3. References
 h2. License
 
 LGPL 3 - See LICENSE.txt
+
+h2. Maven Repository / Setup
+
+pre.. 
+<repositories>
+	<repository>
+		<id>sling.mocks.repo</id>
+		<name>Sling Mocks Maven Repository</name>
+		<url>http://sling-mocks.sourceforge.net/maven2</url>
+		<releases>
+			<enabled>true</enabled>
+		</releases>
+		<snapshots>
+			<enabled>true</enabled>
+		</snapshots>
+	</repository>
+</repositories>
+
+<dependencies>
+		<dependency>
+			<groupId>com.scit.sling.test</groupId>
+			<artifactId>sling.testing</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+</dependencies>
