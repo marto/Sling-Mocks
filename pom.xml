@@ -3,9 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.scit.sling.test</groupId>
 	<artifactId>sling.testing</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>Sling Mocks</name>
+	<version>0.0.1-SNAPSHOT</version>
 	<description>Tools and utilities for unit testing of Sling modules</description>
+	<url>http://sling-mocks.sourceforge.net</url>
+	<scm>
+		<connection>scm:git:git@github.com:marto/Sling-Mocks.git</connection>
+		<url>scm:git:git@github.com:marto/Sling-Mocks.git</url>
+		<developerConnection>scm:git:git@github.com:marto/Sling-Mocks.git</developerConnection>
+	</scm>
 
 	<parent>
 		<artifactId>scit-os-parent</artifactId>
@@ -20,6 +27,38 @@
 			<timezone>0</timezone>
 		</developer>
 	</developers>
+
+	<licenses>
+		<license>
+			<name>GNU Lesser General Public License v3</name>
+			<url>http://www.gnu.org/licenses/lgpl.txt	</url>
+			<comments>
+				Copyright (c) 2007-2011 Southern Cross IT. All rights reserved.
+	
+					This library is free software; you can redistribute it and/or modify it
+					under the terms of the GNU Lesser General Public License as published by 
+					the Free Software Foundation; either version 3 of the License, or (at
+					your option) any later version.
+		
+					This library is distributed in the hope that it will be useful, but WITHOUT
+					ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+					FITNESS FOR A PARTICULAR PURPOSE. See the GNU Lesser General Public License
+					for	more details.
+			</comments>
+		</license>
+	</licenses>
+
+	<distributionManagement>
+		<site>
+			<id>marto2.sf.net</id>
+			<url>scp://shell.sourceforge.net/home/project-web/sling-mocks/htdocs</url>
+		</site>
+		<repository>
+			<id>marto2.sf.net</id>
+			<name>SourceForge shell repo</name>
+			<url>scp://shell.sourceforge.net/home/project-web/sling-mocks/htdocs/maven2</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
