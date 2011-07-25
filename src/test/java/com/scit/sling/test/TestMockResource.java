@@ -24,9 +24,13 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Collection;
 import java.util.Locale;
 
+import org.apache.sling.adapter.internal.AdapterFactoryDescriptor;
+import org.apache.sling.api.adapter.AdapterFactory;
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
 import org.apache.sling.commons.testing.sling.MockResourceResolver;
@@ -92,7 +96,47 @@ public class TestMockResource {
 	public void testParsingWholeJsonInputButPrintingOnly2Levels() throws IOException {
 		assertEquals(getResource("/example.json.2.dump"), root.fullContent(2) + "\n");
 	}
+	
+	@Test
+	public void testBuildMockRepository() throws IOException {
+		assertEquals("Expected 166 Children + 1 root node", 167, assertResource(root, 0));
+	}
 
+	private int assertResource(ResourceNode node, int count) {
+		assertNotNull(repo.getResource(node.getPath()));
+		for (ResourceNode child : node.getChildren()) {
+			count += assertResource(child, 0);
+		}
+		return count + 1;
+	}
+
+	@Test
+	public void testAdaptable() {
+		MockResource r = new MockResource(repo, "/somehwere", "whatever");
+		r.addAdaptable(String.class, "this was set to be returned");
+		assertEquals("this was set to be returned", r.adaptTo(String.class));
+		assertEquals(null, r.adaptTo(Integer.class));
+	}
+
+	@Test
+	public void testAdaptableFactory() {
+		MockResource r = new MockResource(repo, "/somehwere", "whatever");
+		r.setAdapterFactories(Arrays.asList(new AdapterFactory[] { new AdapterFactory() {
+				@SuppressWarnings("unchecked")
+				@Override
+				public <AdapterType> AdapterType getAdapter(Object adaptable, Class<AdapterType> type) {
+					if (type.equals(String.class)) {
+						return (AdapterType) "something";
+					}
+					return null;
+				}
+			}
+		}));
+		
+		assertEquals("something", r.adaptTo(String.class));
+		assertEquals(null, r.adaptTo(Integer.class));
+	}
+	
 	private String getResource(String resource) throws IOException {
 		CharArrayWriter out = new CharArrayWriter();
 		InputStream in = this.getClass().getResourceAsStream(resource);

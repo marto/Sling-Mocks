@@ -33,8 +33,7 @@ public class MockValueMap extends LinkedHashMap<String, Object> implements Value
 	private static final long serialVersionUID = 1L;
 
 	public <T> T get(String name, Class<T> type) {
-		Object o = get(name);
-		return convertType(o, type);
+		return convertType(get(name), type);
 	}
 
 	public <T> T get(String name, T defaultValue) {
@@ -48,6 +47,9 @@ public class MockValueMap extends LinkedHashMap<String, Object> implements Value
 	
 	@SuppressWarnings("unchecked")
 	private <T> T convertType(Object o, Class<T> type) {
+		if (o == null) {
+			return null;
+		}
 		if (o.getClass().isAssignableFrom(type)) {
 			return (T) o;
 		}
@@ -85,6 +87,22 @@ public class MockValueMap extends LinkedHashMap<String, Object> implements Value
 				return (T)(Short)((Number)o).shortValue();
 			} else if (BigDecimal.class.isAssignableFrom(type)) {
 				return (T) new BigDecimal(o.toString());
+			}
+		} else if (o instanceof String && Number.class.isAssignableFrom(type)) {
+			if (Byte.class.isAssignableFrom(type)) {
+				return (T)new Byte((String)o);
+			} else if (Double.class.isAssignableFrom(type)) {
+				return (T)new Double((String)o);
+			} else if (Float.class.isAssignableFrom(type)) {
+				return (T)new Float((String)o);
+			} else if (Integer.class.isAssignableFrom(type)) {
+				return (T)new Integer((String)o);
+			} else if (Long.class.isAssignableFrom(type)) {
+				return (T)new Long((String)o);
+			} else if (Short.class.isAssignableFrom(type)) {
+				return (T)new Short((String)o);
+			} else if (BigDecimal.class.isAssignableFrom(type)) {
+				return (T) new BigDecimal((String)o);
 			}
 		}
 		throw new NotImplementedException("Can't handle conversion from " + o.getClass().getName() + " to " + type.getName());

@@ -56,6 +56,11 @@
 			<name>SourceForge shell repo</name>
 			<url>scp://shell.sourceforge.net/home/project-web/sling-mocks/htdocs/maven2</url>
 		</repository>
+		<snapshotRepository>
+			<id>marto2.sf.net</id>
+			<name>SourceForge shell snapshot repo</name>
+			<url>scp://shell.sourceforge.net/home/project-web/sling-mocks/htdocs/maven2-snap</url>
+		</snapshotRepository>
 	</distributionManagement>
 
 	<build>

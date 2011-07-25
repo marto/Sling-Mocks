@@ -61,21 +61,26 @@ public class MockResourceFactory {
 	 */
 	public static MockResourceResolver buildMockRepository(ResourceNode baseNode) {
 		MockResourceResolver resolver = new MockResourceResolver();
-		LinkedList<Resource> children = new LinkedList<Resource>();
-		for (ResourceNode child : baseNode.getChildren()) {
-			Resource r = buildResource(resolver, child);
-			resolver.addResource(r);
-			children.add(r);
-		}
-		Resource parent = buildResource(resolver, baseNode);
-		resolver.addResource(parent);
-		resolver.addChildren(parent, children);
+		addResource(baseNode, buildResource(resolver, baseNode), resolver);
 		return resolver;
 	}
 
-	private static Resource buildResource(MockResourceResolver resolver, ResourceNode child) {
-		MockResource r = new MockResource(resolver, child.getPath(), child.getProperties().get("jcr:primaryType", ""));
-		r.addAdaptable(ValueMap.class, child.getProperties());
+	private static MockResourceResolver addResource(ResourceNode baseNode, MockResource baseResource, MockResourceResolver resolver) {
+		LinkedList<Resource> children = new LinkedList<Resource>();
+		for (ResourceNode child : baseNode.getChildren()) {
+			MockResource childResource = buildResource(resolver, child);
+			resolver.addResource(childResource);
+			children.add(childResource);
+			addResource(child, childResource, resolver);
+		}
+		resolver.addResource(baseResource);
+		resolver.addChildren(baseResource, children);
+		return resolver;
+	}
+
+	private static MockResource buildResource(MockResourceResolver resolver, ResourceNode node) {
+		MockResource r = new MockResource(resolver, node.getPath(), node.getProperties().get("jcr:primaryType", ""));
+		r.addAdaptable(ValueMap.class, node.getProperties());
 		return r;
 	}
 
