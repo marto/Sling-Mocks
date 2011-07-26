@@ -22,7 +22,7 @@ import org.apache.sling.api.resource.ValueMap;
  * 
  **/
 public class MockResource extends org.apache.sling.commons.testing.sling.MockResource {
-	private MockAdaptable mockAdaptable = new MockAdaptable();
+	private MockAdapter mockAdaptable = new MockAdapter();
 
 	public MockResource(ResourceResolver resourceResolver, String path,	String resourceType, String resourceSuperType) {
 		super(resourceResolver, path, resourceType, resourceSuperType);
@@ -34,10 +34,10 @@ public class MockResource extends org.apache.sling.commons.testing.sling.MockRes
 
 	@Override
 	public <AdapterType> AdapterType adaptTo(Class<AdapterType> type) {
-		return mockAdaptable.adaptTo(type);
+		return mockAdaptable.adaptTo(this, type);
 	}
 
-	public MockAdaptable getMockAdaptable() {
+	public MockAdapter getMockAdaptable() {
 		return mockAdaptable;
 	}
 }

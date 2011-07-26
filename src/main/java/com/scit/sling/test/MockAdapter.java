@@ -5,21 +5,20 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.apache.sling.api.adapter.Adaptable;
 import org.apache.sling.api.adapter.AdapterFactory;
 
 /**
  * A Mock Adaptable that can be easily setup
  */
-public class MockAdaptable implements Adaptable {
+public class MockAdapter {
 	private final Map<Class<?>, Object> adaptables;
 	private Collection<AdapterFactory> factories = Collections.emptyList();
 
-	public MockAdaptable() {
+	public MockAdapter() {
 		adaptables = new HashMap<Class<?>, Object>();
 	}
 
-	public MockAdaptable(Map<Class<?>, Object> adaptables, Collection<AdapterFactory> factories) {
+	public MockAdapter(Map<Class<?>, Object> adaptables, Collection<AdapterFactory> factories) {
 		this.adaptables = adaptables;
 		this.factories = factories;
 	}
@@ -44,12 +43,11 @@ public class MockAdaptable implements Adaptable {
 		this.factories = adapterFactory;
 	}
 
-	@Override
 	@SuppressWarnings("unchecked")
-	public <AdapterType> AdapterType adaptTo(Class<AdapterType> type) {
+	public <AdapterType> AdapterType adaptTo(Object adaptable, Class<AdapterType> type) {
 		AdapterType val;
 		for (AdapterFactory factory : factories) {
-			val = factory.getAdapter(this, type);
+			val = factory.getAdapter(adaptable, type);
 			if (val != null) {
 				return val;
 			}

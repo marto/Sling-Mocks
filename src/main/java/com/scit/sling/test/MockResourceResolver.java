@@ -1,14 +1,14 @@
 package com.scit.sling.test;
 
 public class MockResourceResolver extends org.apache.sling.commons.testing.sling.MockResourceResolver {
-	private MockAdaptable mockAdaptable = new MockAdaptable();
+	private MockAdapter mockAdaptable = new MockAdapter();
 
 	@Override
 	public <AdapterType> AdapterType adaptTo(Class<AdapterType> type) {
-		return mockAdaptable.adaptTo(type);
+		return mockAdaptable.adaptTo(this, type);
 	}
 
-	public MockAdaptable getMockAdaptable() {
+	public MockAdapter getMockAdaptable() {
 		return mockAdaptable;
 	}
 }

@@ -7,7 +7,7 @@ import java.util.Arrays;
 import org.apache.sling.api.adapter.AdapterFactory;
 import org.junit.Test;
 
-public class TestMockAdaptable {
+public class TestMockAdapter {
 	@Test
 	public void testAdaptable() {
 		MockResource r = new MockResource(null, "/somehwere", "whatever");
@@ -23,6 +23,7 @@ public class TestMockAdaptable {
 				@SuppressWarnings("unchecked")
 				@Override
 				public <AdapterType> AdapterType getAdapter(Object adaptable, Class<AdapterType> type) {
+					assertEquals("Adaptable must be a " + MockResource.class.getSimpleName(), MockResource.class, adaptable.getClass());
 					if (type.equals(String.class)) {
 						return (AdapterType) "something";
 					}
