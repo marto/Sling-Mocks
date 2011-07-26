@@ -32,7 +32,6 @@ import org.joda.time.format.DateTimeFormatter;
  * Factory for creating {@link MockResource}/{@link MockResourceResolver}.
  */
 public class MockResourceFactory {
-
 	/**
 	 * Helper factory method that does:<br>
 	 * <code>
@@ -80,7 +79,7 @@ public class MockResourceFactory {
 
 	private static MockResource buildResource(MockResourceResolver resolver, ResourceNode node) {
 		MockResource r = new MockResource(resolver, node.getPath(), node.getProperties().get("jcr:primaryType", ""));
-		r.addAdaptable(ValueMap.class, node.getProperties());
+		r.getMockAdaptable().addAdaptable(ValueMap.class, node.getProperties());
 		return r;
 	}
 
