@@ -17,7 +17,6 @@ import java.util.LinkedList;
 import java.util.Map;
 
 import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.commons.testing.sling.MockResourceResolver;
 
 /**
  * This class is used to represent a JRC subtree. You can use it directly to create a tree then build a {@link MockResourceResolver}

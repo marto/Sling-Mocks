@@ -29,7 +29,6 @@ import java.util.Locale;
 
 import org.apache.sling.api.resource.Resource;
 import org.apache.sling.api.resource.ValueMap;
-import org.apache.sling.commons.testing.sling.MockResourceResolver;
 import org.codehaus.jackson.JsonParseException;
 import org.joda.time.DateTime;
 import org.junit.Before;
