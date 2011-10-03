@@ -13,6 +13,7 @@
  */
 package com.scit.sling.test;
 
+import java.lang.reflect.Array;
 import java.math.BigDecimal;
 import java.util.Calendar;
 import java.util.Date;
@@ -52,6 +53,18 @@ public class MockValueMap extends LinkedHashMap<String, Object> implements Value
 		}
 		if (o.getClass().isAssignableFrom(type)) {
 			return (T) o;
+		}
+		if (o.getClass().isArray() && type.isArray()) {
+			if (type.getComponentType().isAssignableFrom(o.getClass().getComponentType())) {
+				return (T)o;
+			} else {
+				// we need to convert the elements in the array
+				Object array = Array.newInstance(type.getComponentType(), Array.getLength(o));
+				for (int i = 0; i < Array.getLength(o); i++) {
+					Array.set(array, i, convertType(Array.get(o,i), type.getComponentType()));
+				}
+				return (T)array;
+			}
 		}
 		if (String.class.isAssignableFrom(type)) {
 			// Format dates

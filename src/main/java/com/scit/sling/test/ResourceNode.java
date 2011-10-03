@@ -13,6 +13,7 @@
  */
 package com.scit.sling.test;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Map;
 
@@ -100,7 +101,7 @@ public class ResourceNode {
 	private void toString(String indent, StringBuilder sb, int depth) {
 		sb.append(indent).append("jcr:path").append("= ").append(getPath()).append("\n");
 		for (Map.Entry<String,Object> prop : properties.entrySet()) {
-			sb.append(indent).append(prop.getKey()).append("= ").append(prop.getValue()).append("\n");
+			sb.append(indent).append(prop.getKey()).append("= ").append(jsonStringValue(prop.getValue())).append("\n");
 		}
 		if (depth > 0) {
 			depth--;
@@ -113,6 +114,16 @@ public class ResourceNode {
 				}
 			}
 		}
+	}
+
+	private String jsonStringValue(Object value) {
+		if (value == null) {
+			return "";
+		}
+		if (value.getClass().isArray()) {
+			return Arrays.asList((Object[])value).toString();
+		}
+		return value.toString();
 	}
 
 	/**

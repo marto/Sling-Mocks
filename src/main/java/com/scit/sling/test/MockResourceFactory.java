@@ -123,7 +123,7 @@ public class MockResourceFactory {
 				while ((token = jp.nextToken()) != JsonToken.END_ARRAY) {
 					array.add(parseValue(token, jp));
 				}
-				context.addProperty(fieldname, array);
+				context.addProperty(fieldname, array.toArray());
 				break;
 			default:
 				if (token.isScalarValue()) {

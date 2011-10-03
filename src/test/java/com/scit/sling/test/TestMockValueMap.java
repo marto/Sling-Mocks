@@ -1,6 +1,7 @@
 package com.scit.sling.test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
 import java.math.BigDecimal;
@@ -64,5 +65,27 @@ public class TestMockValueMap {
 		
 		props.put("some-int", 999L);
 		assertEquals(Integer.valueOf(999), props.get("some-int", Integer.class));
+	}
+	
+	@Test
+	public void testGetArray() {
+		props.put("string-array", new String[] {"zero", "one", "two"});
+		String[] values = props.get("string-array", new String[0].getClass());
+		assertNotNull(values);
+		assertEquals(3, values.length);
+		assertEquals("zero", values[0]);
+		assertEquals("one", values[1]);
+		assertEquals("two", values[2]);
+	}
+
+	@Test
+	public void testArrayConversion() {
+		props.put("string-array", new int[] { 0, 1, 2 });
+		String[] values = props.get("string-array", new String[0].getClass());
+		assertNotNull(values);
+		assertEquals(3, values.length);
+		assertEquals("0", values[0]);
+		assertEquals("1", values[1]);
+		assertEquals("2", values[2]);
 	}
 }
