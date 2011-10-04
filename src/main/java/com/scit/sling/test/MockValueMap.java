@@ -51,9 +51,6 @@ public class MockValueMap extends LinkedHashMap<String, Object> implements Value
 		if (o == null) {
 			return null;
 		}
-		if (o.getClass().isAssignableFrom(type)) {
-			return (T) o;
-		}
 		if (o.getClass().isArray() && type.isArray()) {
 			if (type.getComponentType().isAssignableFrom(o.getClass().getComponentType())) {
 				return (T)o;
@@ -65,6 +62,9 @@ public class MockValueMap extends LinkedHashMap<String, Object> implements Value
 				}
 				return (T)array;
 			}
+		}
+		if (o.getClass().isAssignableFrom(type)) {
+			return (T) o;
 		}
 		if (String.class.isAssignableFrom(type)) {
 			// Format dates

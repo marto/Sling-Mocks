@@ -79,6 +79,17 @@ public class TestMockValueMap {
 	}
 
 	@Test
+	public void testGetArrayWhenObjectArray() {
+		props.put("string-array", new Object[] {"zero", "one", "two"});
+		String[] values = props.get("string-array", new String[0].getClass());
+		assertNotNull(values);
+		assertEquals(3, values.length);
+		assertEquals("zero", values[0]);
+		assertEquals("one", values[1]);
+		assertEquals("two", values[2]);
+	}
+
+	@Test
 	public void testArrayConversion() {
 		props.put("string-array", new int[] { 0, 1, 2 });
 		String[] values = props.get("string-array", new String[0].getClass());
