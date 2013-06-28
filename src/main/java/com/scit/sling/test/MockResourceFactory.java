@@ -13,6 +13,8 @@
  */
 package com.scit.sling.test;
 
+import static org.apache.commons.lang.StringUtils.isEmpty;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.LinkedList;
@@ -77,8 +79,13 @@ public class MockResourceFactory {
 	}
 
 	private static MockResource buildResource(MockResourceResolver resolver, ResourceNode node) {
-		MockResource r = new MockResource(resolver, node.getPath(), node.getProperties().get("jcr:primaryType", ""));
-		r.getMockAdaptable().addAdaptable(ValueMap.class, node.getProperties());
+		ValueMap properties = node.getProperties();
+		String type = properties.get("sling:resourceType", String.class);
+		if (isEmpty(type)) {
+		   type = properties.get("jcr:primaryType", "");
+		}
+      MockResource r = new MockResource(resolver, node.getPath(), type);
+		r.getMockAdaptable().addAdaptable(ValueMap.class, properties);
 		return r;
 	}
 

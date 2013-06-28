@@ -13,6 +13,8 @@
  */
 package com.scit.sling.test;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.equalToIgnoringWhiteSpace;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -58,7 +60,21 @@ public class TestMockResource {
 		assertNotNull(props);
 		assertTrue(props instanceof ValueMap);
 	}
-	
+
+	@Test
+	public void testSlingResourceTypeIsLoaded() {
+      Resource r = repo.getResource("/content/geometrixx/en/products/jcr:content");
+      assertNotNull(r);
+      assertEquals("geometrixx/components/contentpage", r.getResourceType());
+	}
+
+  @Test
+   public void testSlingResourceTypeDefaultsToJcrPrimaryType() {
+      Resource r = repo.getResource("/content/geometrixx/en/products");
+      assertNotNull(r);
+      assertEquals("cq:Page", r.getResourceType());
+   }
+
 	@Test
 	public void testCalendarAndDateConversion() {
 		// Test Calendar Conversion
@@ -84,14 +100,18 @@ public class TestMockResource {
 	
 	@Test
 	public void testParsingWholeJsonInput() throws IOException {
-		assertEquals(getResource("/example.json.dump"), root.fullContent(Integer.MAX_VALUE) + "\n");
+	   assertEqualsIgnoreWhiteSpace(getResource("/example.json.dump"), root.fullContent(Integer.MAX_VALUE));
 	}
-	
+
 	@Test
 	public void testParsingWholeJsonInputButPrintingOnly2Levels() throws IOException {
-		assertEquals(getResource("/example.json.2.dump"), root.fullContent(2) + "\n");
+	   assertEqualsIgnoreWhiteSpace(getResource("/example.json.2.dump"), root.fullContent(2));
 	}
-	
+
+	private void assertEqualsIgnoreWhiteSpace(String expected, String actual) {
+	   assertThat(expected, equalToIgnoringWhiteSpace(actual));
+	}
+
 	@Test
 	public void testBuildMockRepository() throws IOException {
 		assertEquals("Expected 166 Children + 1 root node", 167, assertResource(root, 0));
@@ -110,7 +130,7 @@ public class TestMockResource {
 		InputStream in = this.getClass().getResourceAsStream(resource);
 		try {
 			if (in != null) {
-				BufferedReader r = new BufferedReader(new InputStreamReader(in));
+				BufferedReader r = new BufferedReader(new InputStreamReader(in, "utf-8"));
 				BufferedWriter w = new BufferedWriter(out);
 				int c ;
 				while ((c = r.read()) != -1) {
