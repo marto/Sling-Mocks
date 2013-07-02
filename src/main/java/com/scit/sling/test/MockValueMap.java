@@ -101,6 +101,21 @@ public class MockValueMap extends LinkedHashMap<String, Object> implements Value
 			} else if (BigDecimal.class.isAssignableFrom(type)) {
 				return (T) new BigDecimal(o.toString());
 			}
+		} else if (o instanceof Number && type.isPrimitive()) {
+			final Number num = (Number)o;
+			if (type == byte.class) {
+				return (T) new Byte(num.byteValue());
+			} else if (type == double.class) {
+				return (T) new Double(num.doubleValue());
+			} else if (type == float.class) {
+				return (T) new Float(num.floatValue());
+			} else if (type == int.class) {
+				return (T) new Integer(num.intValue());
+			} else if (type == long.class) {
+				return (T) new Long(num.longValue());
+			} else if (type == short.class) {
+				return (T) new Short(num.shortValue());
+			} 
 		} else if (o instanceof String && Number.class.isAssignableFrom(type)) {
 			if (Byte.class.isAssignableFrom(type)) {
 				return (T)new Byte((String)o);

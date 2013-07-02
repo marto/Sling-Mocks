@@ -70,7 +70,7 @@ public class TestMockValueMap {
 	@Test
 	public void testGetArray() {
 		props.put("string-array", new String[] {"zero", "one", "two"});
-		String[] values = props.get("string-array", new String[0].getClass());
+		String[] values = props.get("string-array", String[].class);
 		assertNotNull(values);
 		assertEquals(3, values.length);
 		assertEquals("zero", values[0]);
@@ -81,7 +81,7 @@ public class TestMockValueMap {
 	@Test
 	public void testGetArrayWhenObjectArray() {
 		props.put("string-array", new Object[] {"zero", "one", "two"});
-		String[] values = props.get("string-array", new String[0].getClass());
+		String[] values = props.get("string-array", String[].class);
 		assertNotNull(values);
 		assertEquals(3, values.length);
 		assertEquals("zero", values[0]);
@@ -91,12 +91,35 @@ public class TestMockValueMap {
 
 	@Test
 	public void testArrayConversion() {
-		props.put("string-array", new int[] { 0, 1, 2 });
-		String[] values = props.get("string-array", new String[0].getClass());
+		props.put("int-array", new int[] { 0, 1, 2 });
+		String[] values = props.get("int-array", String[].class);
 		assertNotNull(values);
 		assertEquals(3, values.length);
 		assertEquals("0", values[0]);
 		assertEquals("1", values[1]);
 		assertEquals("2", values[2]);
 	}
+
+	@Test
+	public void testPrimitiveArrayConversionLong() {
+		props.put("int-array", new int[] { 0, 1, 2 });
+		long[] values = props.get("int-array", long[].class);
+		assertNotNull(values);
+		assertEquals(3, values.length);
+		assertEquals(0L, values[0]);
+		assertEquals(1L, values[1]);
+		assertEquals(2L, values[2]);
+	}
+	
+	@Test
+	public void testPrimitiveArrayConversionInt() {
+		props.put("int-array", new long[] { 0, 1, 2 });
+		int[] values = props.get("int-array", int[].class);
+		assertNotNull(values);
+		assertEquals(3, values.length);
+		assertEquals(0, values[0]);
+		assertEquals(1, values[1]);
+		assertEquals(2, values[2]);
+	}
+
 }
