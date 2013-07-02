@@ -11,4 +11,12 @@ public class MockResourceResolver extends org.apache.sling.commons.testing.sling
 	public MockAdapter getMockAdaptable() {
 		return mockAdaptable;
 	}
+
+	@Override
+	public String[] getSearchPath() {
+		final String[] searchPath = super.getSearchPath();
+		return searchPath == null ? EMPTY : searchPath;
+	}
+
+	private final static String[] EMPTY = new String[0];
 }
