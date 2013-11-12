@@ -8,6 +8,10 @@ import org.apache.sling.api.resource.Resource;
 public class MockResourceResolver extends org.apache.sling.commons.testing.sling.MockResourceResolver {
 	private MockAdapter mockAdaptable = new MockAdapter();
 
+	public MockResourceResolver() {
+		setSearchPath();
+	}
+
 	@Override
 	public <AdapterType> AdapterType adaptTo(Class<AdapterType> type) {
 		return mockAdaptable.adaptTo(this, type);
