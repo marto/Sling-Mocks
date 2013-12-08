@@ -4,7 +4,7 @@
 	<artifactId>sling.testing</artifactId>
 	<packaging>jar</packaging>
 	<name>Sling Mocks</name>
-	<version>0.0.11</version>
+	<version>0.0.11-SNAPSHOT</version>
 	<description>Tools and utilities for unit testing of Sling modules</description>
 	<url>http://sling-mocks.sourceforge.net</url>
 	<scm>
